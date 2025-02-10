@@ -1,0 +1,32 @@
+/* Styles for the scatter plot circles */
+.scatter circle {
+    fill: steelblue;              /* Fill color of the circles in the scatter plot */
+    stroke: white;                /* Color of the border ("stroke") around the circles */
+    stroke-width: 1.5px;            /* Thickness of the circle borders */
+}
+
+/* Styles for the axis labels (x and y labels) */
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    text-anchor: middle; /* Center the text (SVG only) */
+}
+
+.axis-label {
+    font: 12px sans-serif;          /* Font style and size for the axis labels */
+    fill: black;                  /* Color of the axis label text */
+    text-anchor: middle; /* Center the text (SVG only) */
+
+}
+
+/* Styles for the tooltip that appears on hover */
+.tooltip {
+    position: absolute;             /* Positioning relative to the page, allowing it to be placed anywhere */
+    text-align: center;             /* Center-align text within the tooltip */
+    padding: 5px;                   /* Space between the text and the edges of the tooltip */
+    font: 12px sans-serif;          /* Font style and size for the tooltip text */
+    background: lightsteelblue;   /* Background color of the tooltip */
+    border: 0px;                    /* No border for the tooltip */
+    border-radius: 8px;             /* Rounded corners for a softer look */
+    pointer-events: none;           /* Prevent the tooltip from interfering with mouse events */
+}
